@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: BenchNine;
+    src: url('../fonts/benchnine-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: BenchNine;
+    src: url('../fonts/benchnine-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: BenchNine;
+    src: url('../fonts/benchnine-light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}  
+  
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/roboto-bold.woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/roboto-regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import "components/index";
+//tablet
+@media (max-width: 992px) {
+    @import "components/index_tablet";
+}
+
+//smartphone
+@media (max-width: 768px){
+    
+
+}
